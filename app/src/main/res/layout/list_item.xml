@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:id="@+id/img"
+        android:src="@drawable/img"
+        android:layout_height="95dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Image"
+        android:textSize="23sp"
+        android:id="@+id/text"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>
